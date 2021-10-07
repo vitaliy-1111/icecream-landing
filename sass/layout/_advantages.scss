@@ -1,0 +1,52 @@
+.section-advantages {
+  padding-bottom: 48px;
+  padding-top: 85px;
+}
+.advantages-list__counter {
+  margin-bottom: 20px;
+  font-family: Titan One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 41px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.advantages-list__text {
+  width: 230px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 170%;
+  /* or 20px */
+
+  color: #000000;
+}
+.advantages-list__item {
+  position: relative;
+  margin-bottom: 104px;
+  color: #d41443;
+  &::before {
+    content: '';
+    position: absolute;
+    top: -66px;
+
+    // transform: translate(50%, -50%);
+    width: 33px;
+    height: 50px;
+    background-image: url(../images/products1-mobile.png);
+    background-repeat: no-repeat;
+  }
+  &:nth-of-type(1):before {
+    background-image: url(../images/advantages-icon1.png);
+  }
+  &:nth-of-type(2):before {
+    width: 50px;
+    background-image: url(../images/advantages-icon2.png);
+  }
+  &:nth-of-type(3):before {
+    width: 50px;
+    background-image: url(../images/advantages-icon3.png);
+  }
+}

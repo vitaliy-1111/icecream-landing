@@ -1,0 +1,69 @@
+.section-hero {
+  position: relative;
+  min-height: 445.75px;
+  background-color: #ffb8ca;
+  padding-top: 137px;
+  padding-bottom: 140px;
+}
+.main-title {
+  width: 220px;
+  margin-bottom: 19px;
+  font-family: Titan One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.main-title__accent {
+  font-size: 48px;
+  line-height: 96.5%;
+  /* or 46px */
+
+  text-transform: uppercase;
+
+  color: #d41443;
+}
+.section-hero__btn {
+  margin-right: 8px;
+  min-width: 62.4px;
+  min-height: 24px;
+  padding: 7px 13px;
+  border: none;
+  background-color: transparent;
+
+  background: #d41443;
+  border-radius: 20px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 10px;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+.section-hero__btn--color {
+  background-color: #ffffff;
+  color: #d41443;
+}
+.section-hero__circle-img {
+  position: absolute;
+  top: 27px;
+  right: 0;
+}
+.section-hero__icecream-img {
+  position: absolute;
+  top: 36px;
+  right: 32px;
+}
+.container-text {
+  position: absolute;
+  top: 137px;
+  left: 20px;
+}

@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./css/main.min.css">
   <title>IceCream</title>
 </head>
@@ -30,15 +34,19 @@
   <!--Hero-->
   <section class="section-hero">
     <div class="container">
-      <h1 class="main-title">ice cream made with <span class="main-title__accent">passion</span></h1>
-      <button type="button" class="section-hero__btn btn">Products</button>
-      <button type="button" class="section-hero__btn btn">How it's made?</button>
+      <img src="./images/circle-mobile.png" class="section-hero__circle-img" alt="circle">
+      <img src="./images/icecream-mobile.png" class="section-hero__icecream-img" alt="icecream">
+      <div class="container-text">
+        <h1 class="main-title">ice cream made with <span class="main-title__accent">passion</span></h1>
+        <button type="button" class="section-hero__btn btn">Products</button>
+        <button type="button" class="section-hero__btn section-hero__btn--color btn ">How it's made?</button>
+      </div>
     </div>
   </section>
   <!--Products-->
   <section class="section-products">
     <div class="container">
-      <span class="pre-title section-products__pre-title ">100% natural</span>
+      <p class="pre-title section-products__pre-title ">100% natural</p>
       <h2 class="section-products__title title">products</h2>
       <ul class="products-list list">
         <li class="products-list__item">
@@ -47,7 +55,9 @@
             tempor incididunt ut labore et. dolore magna
             aliqua facilisis.
           </p>
-          <button type="button" class="products-list__btn">></button>
+          <button type="button" class="products-list__btn">
+            <img src="./images/products-btn.svg" width="40" height="40">
+          </button>
         </li>
         <li class="products-list__item">
           <h3 class="products-list__title">ice coffe</h3>
@@ -55,7 +65,8 @@
             tempor incididunt ut labore et. dolore magna
             aliqua facilisis.
           </p>
-          <button type="button" class="products-list__btn">></button>
+          <button type="button" class="products-list__btn"><img src="./images/products-btn.svg" width="40" height="40">
+          </button>
         </li>
         <li class="products-list__item">
           <h3 class="products-list__title">milkshakes</h3>
@@ -63,7 +74,8 @@
             tempor incididunt ut labore et. dolore magna
             aliqua facilisis.
           </p>
-          <button type="button" class="products-list__btn">></button>
+          <button type="button" class="products-list__btn"><img src="./images/products-btn.svg" width="40" height="40">
+          </button>
         </li>
       </ul>
     </div>
@@ -71,8 +83,8 @@
   <!--About-->
   <section class="section-about">
     <div class="container">
-      <span class="pre-title section-products__pre-title ">tradition and love</span>
-      <h2 class="section-products__title title">how it’s made?</h2>
+      <p class="pre-title section-about__pre-title">tradition and love</p>
+      <h2 class="section-about__title title">how it’s made?</h2>
       <img src="./images/cow-mobile-x1.png" class="section-about__img" width="280" height="279" alt="cow with milk">
       <p class="section-about__bold-text">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus,
         faucibus lorem eget, egestas eros.
@@ -84,7 +96,7 @@
 
         Aliquam erat volutpat. Aenean accumsan.
       </p>
-      <button type="button" class="section-about__btn btn">Read more</button>
+      <button type="button" class="section-about__btn btn">Read more ></button>
     </div>
   </section>
   <!--Advantages-->
@@ -93,15 +105,15 @@
       <h2 class="visually-hidden">Advantages</h2>
       <ul class="advantages-list list">
         <li class="advantages-list__item">
-          <span class="advantages-list__counter">721</span>
+          <p class="advantages-list__counter">721</p>
           <p class="advantages-list__text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
         </li>
         <li class="advantages-list__item">
-          <span class="advantages-list__counter">16kg</span>
+          <p class="advantages-list__counter">16kg</p>
           <p class="advantages-list__text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
         </li>
         <li class="advantages-list__item">
-          <span class="advantages-list__counter">84</span>
+          <p class="advantages-list__counter">84</p>
           <p class="advantages-list__text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
         </li>
       </ul>

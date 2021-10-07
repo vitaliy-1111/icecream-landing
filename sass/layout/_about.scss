@@ -1,0 +1,62 @@
+.section-about {
+  padding-top: 125px;
+  padding-bottom: 19px;
+  background-color: #fff5f6;
+  background-image: url(../images/about-bg-mobile.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right 0 bottom 70px;
+}
+.section-about__title {
+  margin-bottom: 26px;
+}
+.section-about__img {
+  margin-bottom: 46px;
+}
+.section-about__bold-text {
+  margin-bottom: 47px;
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 162%;
+  /* or 19px */
+
+  color: #000000;
+}
+.section-about__text {
+  width: 220px;
+  margin-bottom: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 162%;
+  /* or 19px */
+
+  color: #907e82;
+}
+.section-about__btn {
+  height: 44px;
+  padding: 10px 37px;
+  border: none;
+
+  background-color: #ffffff;
+  border-radius: 22px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #d41443;
+  margin-left: 30px;
+}
