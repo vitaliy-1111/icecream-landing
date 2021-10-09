@@ -335,6 +335,10 @@ p {
   background-color: #ffb8ca;
   padding-top: 137px;
   padding-bottom: 140px;
+  background-image: url(../../images/icecream-mobile.png), url(../images/circle-mobile.png);
+  background-size: 171px 410px, 308px 346px;
+  background-position: 117px 36px, 36px 27px;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .main-title {
@@ -382,24 +386,6 @@ p {
 .section-hero__btn--color {
   background-color: #ffffff;
   color: #d41443;
-}
-
-.section-hero__circle-img {
-  position: absolute;
-  top: 27px;
-  right: 0;
-}
-
-.section-hero__icecream-img {
-  position: absolute;
-  top: 36px;
-  right: 32px;
-}
-
-.container-text {
-  position: absolute;
-  top: 137px;
-  left: 20px;
 }
 
 .section-products {
