@@ -13,6 +13,8 @@
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <!-- Add the slick-theme.css if you want default styling -->
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" href="./libs/slick/slick.css">
+  <link rel="stylesheet" href="./libs/slick/slick-theme.css">
 
   <link rel="stylesheet" href="./css/main.min.css">
   <title>IceCream</title>
@@ -134,10 +136,11 @@
   <!--Reviews-->
   <section class="section-reviews">
     <div class="container">
-      <div class="multiple-items">
-        <div>your content</div>
-        <div>your content</div>
-        <div>your content</div>
+      <div class="slider">
+        <div class="slide">
+          <div>your content</div>
+          <div>your content</div>
+        </div>
       </div>
       <img src="images/reviews-1.jpg" class="section-reviews__img">
       <p class="section-reviews__text">Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In
@@ -228,13 +231,9 @@
     </div>
   </footer>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script>
-    $('.multiple-items').slick({
-      infinite: true,
-      slidesToShow: 1,
-      slidesToScroll: 1
-    });
-  </script>
+  <script src="./libs/slick/slick.min.js"></script>
+  <script src="./main.js"></script>
+
 </body>
 
 </html>
