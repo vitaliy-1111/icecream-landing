@@ -843,4 +843,65 @@ p {
   padding-top: 22px;
   border-top: 1px solid #e1e1e1;
 }
+
+.section-reviews__img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 72px;
+}
+
+.section-reviews__text {
+  position: relative;
+  width: 157px;
+  margin: auto;
+  margin-bottom: 72px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 255%;
+  /* or 31px */
+  text-align: center;
+  color: #000000;
+  line-height: 20px;
+  background-image: repeating-linear-gradient(180deg, transparent, transparent 19px, #333 20px);
+}
+
+.section-reviews__text::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translate(50%, 50%);
+          transform: translate(50%, 50%);
+  width: 54px;
+  height: 40px;
+  z-index: -1;
+  background-image: url(../images/reviews-skobki.png);
+}
+
+.section-reviews__after-text {
+  position: relative;
+  margin-bottom: 30px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 186%;
+  /* or 26px */
+  text-align: center;
+  color: #000000;
+}
+
+.section-reviews__after-text::before {
+  content: '';
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 32px;
+  height: 4px;
+  background-image: url(../images/reviews-3points.svg);
+}
 /*# sourceMappingURL=main.css.map */
