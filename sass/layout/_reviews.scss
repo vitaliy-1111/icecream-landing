@@ -1,0 +1,11 @@
+.slick-dots li.slick-active button:before {
+  width: 10px;
+  height: 10px;
+  background-image: url(./image/reviews-home.png);
+  background-position: 50% 50%;
+  background-color: #222222;
+}
+.slick-dots li button:before {
+  font-size: 20px;
+  line-height: 20px;
+}
