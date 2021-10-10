@@ -8,6 +8,10 @@
     padding-top: 10px;
     padding-bottom: 34px;
   }
+  @media screen and (min-width: 1200px) {
+    padding-top: 84px;
+    padding-bottom: 56px;
+  }
 }
 .main-title {
   width: 220px;
@@ -26,6 +30,11 @@
     font-size: 22px;
     line-height: 25px;
   }
+  @media screen and (min-width: 1200px) {
+    width: 277px;
+    font-size: 38px;
+    line-height: 44px;
+  }
 }
 .main-title__accent {
   font-size: 48px;
@@ -38,6 +47,10 @@
   @media screen and (min-width: 768px) {
     font-size: 34px;
     line-height: 31px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 58px;
+    line-height: 90%;
   }
 }
 .section-hero__btn {
@@ -62,6 +75,13 @@
   color: #ffffff;
   @media screen and (min-width: 768px) {
     margin-bottom: 66px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 112px;
+    min-width: 104px;
+    min-height: 40px;
+    font-size: 14px;
+    line-height: 18px;
   }
 }
 .section-hero__btn--color {
@@ -96,12 +116,24 @@
   @media screen and (max-width: 767px) {
     display: none;
   }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 20px;
+    width: 200px;
+    font-size: 14px;
+    line-height: 140%;
+  }
 }
 .section-hero__little-btn {
   display: block;
   margin-left: 120px;
+  width: 18px;
+  height: 18px;
   @media screen and (max-width: 767px) {
     display: none;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 26px;
+    height: 26px;
   }
 }
 .cafe-list {
@@ -110,6 +142,10 @@
   right: 34px;
   @media screen and (max-width: 767px) {
     display: none;
+  }
+  @media screen and (min-width: 1200px) {
+    top: 77px;
+    right: 120px;
   }
 }
 .cafe-list__item {

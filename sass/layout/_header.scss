@@ -1,7 +1,7 @@
 .wrapper-hero-header {
   min-height: 400px;
   background-color: #ffb8ca;
-  background-image: url(../../images/icecream-mobile.png),
+  background-image: url(../images/icecream-mobile.png),
     url(../images/circle-mobile1.png);
 
   background-size: 171px 410px, 346px 346px;
@@ -15,6 +15,14 @@
 
     background-size: 168px 133px, 124px 126px, 143px 336px, 324px 324px;
     background-position: 566px 266px, 34px 245px, 378px 63px, 307px 31px;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  }
+  @media screen and (min-width: 1200px) {
+    background-image: url(../images/hero-girl.png), url(../images/hero-milk.png),
+      url(../images/icecream-mobile.png), url(../images/circle-mobile1.png);
+
+    background-size: 293px 232px, 188px 191px, 236px 557px, 538px 538px;
+    background-position: 878px 433px, 77px 429px, 594px 108px, 475px 52px;
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
   }
 }
