@@ -3,12 +3,18 @@
   margin-right: auto;
   margin-bottom: 72px;
 }
-// .wrapper-text {
-//   width: 157px;
-//   margin: auto;
-//   text-align: center;
-//   margin-bottom: 72px;
-// }
+.wrapper-text {
+  width: 180px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 72px;
+  background-image: repeating-linear-gradient(
+    180deg,
+    transparent,
+    transparent 38px,
+    #e1e1e1 40px
+  );
+}
 .section-reviews__text {
   position: relative;
   // display: inline;
@@ -25,14 +31,14 @@
   text-align: center;
 
   color: #000000;
-  line-height: 20px;
+  line-height: 40px;
   // color: #333;
-  background-image: repeating-linear-gradient(
-    180deg,
-    transparent,
-    transparent 19px,
-    #333 20px
-  );
+  // background-image: repeating-linear-gradient(
+  //   180deg,
+  //   transparent,
+  //   transparent 39px,
+  //   #333 40px
+  // );
 
   &::before {
     content: '';

@@ -850,6 +850,14 @@ p {
   margin-bottom: 72px;
 }
 
+.wrapper-text {
+  width: 180px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 72px;
+  background-image: repeating-linear-gradient(180deg, transparent, transparent 38px, #e1e1e1 40px);
+}
+
 .section-reviews__text {
   position: relative;
   width: 157px;
@@ -863,8 +871,7 @@ p {
   /* or 31px */
   text-align: center;
   color: #000000;
-  line-height: 20px;
-  background-image: repeating-linear-gradient(180deg, transparent, transparent 19px, #333 20px);
+  line-height: 40px;
 }
 
 .section-reviews__text::before {
