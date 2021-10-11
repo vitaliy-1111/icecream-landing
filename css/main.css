@@ -1056,6 +1056,8 @@ body {
   padding-top: 125px;
   padding-bottom: 19px;
   background-color: #fff5f6;
+  -webkit-transition: background-size 500ms linear;
+  transition: background-size 500ms linear;
   background-image: url(../images/about-bg-mobile.png), url(../images/cow-mobile-x1.png);
   background-repeat: no-repeat, no-repeat;
   background-size: contain, 280px 280px;
