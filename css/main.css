@@ -1130,7 +1130,13 @@ body {
   padding-left: 0;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 340px) {
+  .section-gallery__container {
+    padding-left: 15px;
+  }
+}
+
+@media screen and (min-width: 340px) {
   .section-gallery__container {
     padding-left: 30px;
   }
@@ -1168,7 +1174,7 @@ body {
   transition: -webkit-transform 250ms linear;
   transition: transform 250ms linear;
   transition: transform 250ms linear, -webkit-transform 250ms linear;
-  background-color: red;
+  background-color: white;
 }
 
 .section-gallery__wrapper:hover, .section-gallery__wrapper:focus {
