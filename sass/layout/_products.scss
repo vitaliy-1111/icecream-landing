@@ -1,6 +1,9 @@
 .section-products {
   padding-top: 121px;
   padding-bottom: 98px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 120px;
+  }
 }
 .pre-title {
   margin-bottom: 15px;
@@ -15,6 +18,9 @@
   text-transform: uppercase;
 
   color: #ffa5ba;
+  @media screen and (min-width: 1200px) {
+    font-size: 30px;
+  }
 }
 .title {
   margin-bottom: 157px;
@@ -28,6 +34,18 @@
   text-transform: uppercase;
 
   color: #d41443;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 165px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 58px;
+  }
+}
+.products-list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 .products-list__item {
   margin-bottom: 130px;
@@ -37,6 +55,14 @@
   padding-bottom: 41px;
   background-color: #ffb8ca;
   border-radius: 24px;
+  @media screen and (min-width: 768px) {
+    width: 220px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 300px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+  }
   &:nth-of-type(2) {
     background-color: #f0d1a5;
   }
@@ -79,6 +105,7 @@
   text-transform: uppercase;
 
   color: #ffffff;
+
   &::after {
     content: '';
     position: absolute;
@@ -89,6 +116,9 @@
     height: 6px;
 
     background-image: url(../images/threepoints.png);
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 30px;
   }
 }
 .products-list__text {
@@ -107,6 +137,10 @@
   letter-spacing: 0.04em;
 
   color: #ffffff;
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+    margin-bottom: 60px;
+  }
 }
 .products-list__btn {
   display: block;
