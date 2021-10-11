@@ -2,13 +2,24 @@
   padding-top: 125px;
   padding-bottom: 19px;
   background-color: #fff5f6;
-  background-image: url(../images/about-bg-mobile.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right 0 bottom 70px;
+  background-image: url(../images/about-bg-mobile.png),
+    url(../images/cow-mobile-x1.png);
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, 280px 280px;
+  background-position: right 0 bottom 70px, top 263px left 0;
+  @media screen and (min-width: 768px) {
+    background-image: url(../images/about-bg-mobile.png),
+      url(../images/cow-mobile-x1.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, 280px 280px;
+    background-position: right 0 bottom 70px, top 263px left 0;
+  }
 }
 .section-about__title {
-  margin-bottom: 26px;
+  margin-bottom: 351px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 100px;
+  }
 }
 .section-about__img {
   margin-bottom: 46px;
@@ -26,6 +37,9 @@
   /* or 19px */
 
   color: #000000;
+  @media screen and (min-width: 768px) {
+    margin-left: 396px;
+  }
 }
 .section-about__text {
   width: 220px;
@@ -40,6 +54,9 @@
   /* or 19px */
 
   color: #907e82;
+  @media screen and (min-width: 768px) {
+    margin-left: 396px;
+  }
 }
 .section-about__btn {
   height: 44px;
