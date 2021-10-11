@@ -13,7 +13,7 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 
-  @include transition-base(transform);
+  // @include transition-base(transform);
 
   overflow: scroll;
 
@@ -45,7 +45,7 @@
   background-color: #ffffff;
   cursor: pointer;
 
-  @include transition-base(fill);
+  // @include transition-base(fill);
 
   &:hover,
   &:focus {

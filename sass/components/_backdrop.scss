@@ -10,7 +10,7 @@
 
   opacity: 1;
 
-  @include transition-base(opacity);
+  // @include transition-base(opacity);
 }
 .backdrop--is-hidden {
   opacity: 0;
