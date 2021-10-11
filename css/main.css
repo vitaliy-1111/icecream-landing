@@ -832,17 +832,6 @@ body {
   text-align: right;
 }
 
-.cafe-list__item::after {
-  content: '';
-  position: absolute;
-  top: -2px;
-  right: -5px;
-  width: 16px;
-  height: 16px;
-  background-image: url(../images/white-circle.svg);
-  background-repeat: no-repeat;
-}
-
 .cafe-list__counter {
   display: block;
   margin-bottom: 3px;
@@ -854,6 +843,17 @@ body {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #d41443;
+}
+
+.cafe-list__counter::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/white-circle.svg);
+  background-repeat: no-repeat;
 }
 
 .cafe-list__name {

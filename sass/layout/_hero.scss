@@ -154,16 +154,16 @@
   width: 50px;
   text-align: right;
 
-  &::after {
-    content: '';
-    position: absolute;
-    top: -2px;
-    right: -5px;
-    width: 16px;
-    height: 16px;
-    background-image: url(../images/white-circle.svg);
-    background-repeat: no-repeat;
-  }
+  // &::after {
+  //   content: '';
+  //   position: absolute;
+  //   top: -2px;
+  //   right: -5px;
+  //   width: 16px;
+  //   height: 16px;
+  //   background-image: url(../images/white-circle.svg);
+  //   background-repeat: no-repeat;
+  // }
 }
 .cafe-list__counter {
   display: block;
@@ -179,6 +179,16 @@
   text-transform: uppercase;
 
   color: #d41443;
+  &::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/white-circle.svg);
+    background-repeat: no-repeat;
+  }
 }
 .cafe-list__name {
   display: block;
