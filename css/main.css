@@ -932,6 +932,8 @@ body {
 }
 
 .products-list__item {
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 130px;
   position: relative;
   min-height: 485px;
@@ -939,6 +941,7 @@ body {
   padding-bottom: 41px;
   background-color: #ffb8ca;
   border-radius: 24px;
+  width: 280px;
 }
 
 @media screen and (min-width: 768px) {
