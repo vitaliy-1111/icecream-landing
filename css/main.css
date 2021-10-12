@@ -542,9 +542,7 @@ body {
 }
 
 .page-header {
-  z-index: 5;
-  position: fixed;
-  padding-top: 5px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1199px) {
@@ -583,6 +581,17 @@ body {
   z-index: 3;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    -webkit-transform: translateX(500%);
+            transform: translateX(500%);
+  }
 }
 
 .mobile-menu.is-open {

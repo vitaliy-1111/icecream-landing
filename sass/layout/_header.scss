@@ -138,12 +138,12 @@
   }
 }
 .page-header {
-  z-index: 5;
-  position: fixed;
+  // z-index: 5;
+  // position: fixed;
   // background-color: #ffb8ca;
 
-  // width: 100%;
-  padding-top: 5px;
+  width: 100%;
+  // padding-top: 5px;
   // padding-bottom: 5px;
   // @media screen and (min-width: 768px) {
   //   padding-top: 37px;
@@ -180,6 +180,13 @@
   background-color: #e17992;
   z-index: 3;
   transform: translateX(100%);
+  @media screen and (min-width: 768px) {
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    transform: translateX(500%);
+  }
 }
 .mobile-menu.is-open {
   transform: translateX(0);
