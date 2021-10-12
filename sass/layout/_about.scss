@@ -2,7 +2,7 @@
   padding-top: 125px;
   padding-bottom: 19px;
   background-color: #fff5f6;
-  transition: background-size 500ms linear;
+  // transition: background-size 500ms linear;
   background-image: url(../images/about-bg-mobile.png),
     url(../images/cow-mobile-x1.png);
   background-repeat: no-repeat, no-repeat;
@@ -21,7 +21,7 @@
       url(../images/cow-desktop-x1.png);
     background-repeat: no-repeat, no-repeat;
     background-size: contain, 516px 516px;
-    background-position: right 0 bottom 70px, top 300px left 0;
+    background-position: right 0 bottom 70px, top 250px left 0;
   }
 }
 .section-about__title {
