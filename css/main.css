@@ -412,9 +412,9 @@ body {
 
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
-    padding-left: 115px;
-    padding-right: 115px;
+    width: 1080px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -543,6 +543,14 @@ body {
 
 .page-header {
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .page-header {
+    z-index: 5;
+    position: fixed;
+    padding-top: 37px;
+  }
 }
 
 @media screen and (max-width: 1199px) {
@@ -763,7 +771,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .section-hero {
-    padding-top: 84px;
+    padding-top: 171px;
     padding-bottom: 56px;
   }
 }
