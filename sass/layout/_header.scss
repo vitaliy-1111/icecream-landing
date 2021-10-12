@@ -27,10 +27,16 @@
   }
 }
 .page-header {
-  padding-top: 6px;
-  @media screen and (min-width: 768px) {
-    padding-top: 37px;
-  }
+  // z-index: 5;
+  // position: fixed;
+  // background-color: #ffb8ca;
+
+  // width: 100%;
+  padding-top: 5px;
+  // padding-bottom: 5px;
+  // @media screen and (min-width: 768px) {
+  //   padding-top: 37px;
+  // }
 }
 .page-header__nav {
   @media screen and (max-width: 1199px) {
