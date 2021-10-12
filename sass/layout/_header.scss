@@ -1,34 +1,145 @@
+// @keyframes fade-in {
+//   0% {
+//     opacity: 0.1;
+//   }
+//   100% {
+//     opacity: 1;
+//   }
+// }
+// @keyframes transition {
+//   0% {
+//     transform: translateX(100%);
+//   }
+//   100% {
+//     transform: translateX(0);
+//   }
+// }
 .wrapper-hero-header {
+  position: relative;
+  overflow: hidden;
   min-height: 400px;
   background-color: #ffb8ca;
-  background-image: url(../images/icecream-mobile.png),
-    url(../images/circle-mobile1.png);
+  @media screen and (min-width: 1200px) {
+    min-height: 665px;
+  }
+  // background-image: url(../images/icecream-mobile.png),
+  //   url(../images/circle-mobile1.png);
 
-  background-size: 171px 410px, 346px 346px;
-  // background-position: 117px 92px, 36px 83px;
-  background-position: right 32px bottom, right -62px bottom 75px;
+  // background-size: 171px 410px, 346px 346px;
+  // // background-position: 117px 92px, 36px 83px;
+  // background-position: right 32px bottom, right -62px bottom 75px;
 
-  background-repeat: no-repeat, no-repeat;
+  // background-repeat: no-repeat, no-repeat;
+  // @media screen and (min-width: 768px) {
+  //   background-image: url(../images/hero-girl.png), url(../images/hero-milk.png),
+  //     url(../images/icecream-mobile.png), url(../images/circle-mobile1.png);
+
+  //   background-size: 168px 133px, 124px 126px, 143px 336px, 324px 324px;
+  //   background-position: 566px 266px, 34px 245px, 378px 63px, 307px 31px;
+  //   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  // }
+  // @media screen and (min-width: 1200px) {
+  //   background-image: url(../images/hero-girl.png), url(../images/hero-milk.png),
+  //     url(../images/icecream-mobile.png), url(../images/circle-mobile1.png);
+
+  //   background-size: 293px 232px, 188px 191px, 236px 557px, 538px 538px;
+  //   background-position: 878px 433px, 77px 429px, 594px 108px, 475px 52px;
+  //   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  // }
+}
+.wrapper-hero__img-icecream {
+  position: absolute;
+  bottom: 0;
+  right: 32px;
+  width: 171px;
+  height: 410px;
+  overflow: hidden;
+  background-image: url(../images/icecream-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  // animation: fade-in 2s linear;
+  // animation: transition 2s linear;
   @media screen and (min-width: 768px) {
-    background-image: url(../images/hero-girl.png), url(../images/hero-milk.png),
-      url(../images/icecream-mobile.png), url(../images/circle-mobile1.png);
-
-    background-size: 168px 133px, 124px 126px, 143px 336px, 324px 324px;
-    background-position: 566px 266px, 34px 245px, 378px 63px, 307px 31px;
-    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    bottom: 0;
+    right: 247px;
+    width: 143px;
+    height: 336px;
+    background-image: url(../images/icecream-mobile.png);
   }
   @media screen and (min-width: 1200px) {
-    background-image: url(../images/hero-girl.png), url(../images/hero-milk.png),
-      url(../images/icecream-mobile.png), url(../images/circle-mobile1.png);
-
-    background-size: 293px 232px, 188px 191px, 236px 557px, 538px 538px;
-    background-position: 878px 433px, 77px 429px, 594px 108px, 475px 52px;
-    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    bottom: 0;
+    right: 450px;
+    width: 236px;
+    height: 557px;
+    background-image: url(../images/icecream-mobile.png);
+  }
+}
+.wrapper-hero__img-circle {
+  position: absolute;
+  bottom: 75px;
+  right: -62px;
+  width: 346px;
+  height: 346px;
+  overflow: hidden;
+  background-image: url(../images/circle-mobile1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media screen and (min-width: 768px) {
+    bottom: 46px;
+    right: 137px;
+    width: 324px;
+    height: 324px;
+    background-image: url(../images/circle-mobile1.png);
+    background-size: 324px 324px;
+  }
+  @media screen and (min-width: 1200px) {
+    bottom: 75px;
+    right: 267px;
+    width: 538px;
+    height: 538px;
+    background-image: url(../images/circle-mobile1.png);
+    background-size: 538px 538px;
+  }
+}
+.wrapper-hero__img-girl {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    bottom: 0px;
+    right: 34px;
+    width: 168px;
+    height: 133px;
+    background-image: url(../images/hero-girl.png);
+    background-size: cover;
+  }
+  @media screen and (min-width: 1200px) {
+    bottom: 0px;
+    right: 109px;
+    width: 293px;
+    height: 232px;
+    background-image: url(../images/hero-girl.png);
+  }
+}
+.wrapper-hero__img-milk {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    bottom: 28px;
+    left: 34px;
+    width: 124px;
+    height: 126px;
+    background-image: url(../images/hero-milk.png);
+    background-size: cover;
+  }
+  @media screen and (min-width: 1200px) {
+    bottom: 45px;
+    left: 77px;
+    width: 188px;
+    height: 191px;
+    background-image: url(../images/hero-milk.png);
   }
 }
 .page-header {
-  // z-index: 5;
-  // position: fixed;
+  z-index: 5;
+  position: fixed;
   // background-color: #ffb8ca;
 
   // width: 100%;
